@@ -9,8 +9,8 @@ def calculate(event=None):
     y = sqrt(ln(x - 3)),    якщо x > 1
     """
 
-    x_input = entry_x.get().split()
-    keyword = entry_keyword.get().split()
+    x_input = entry_x.get().strip()
+    keyword = entry_keyword.get().strip()
 
     if keyword and x_input == keyword:
         root.destroy() 
