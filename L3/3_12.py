@@ -11,7 +11,7 @@ def censor_text(text, forbidden_words):
         
     return result_text
 
-original_text = "Цей Секретний документ містить секретний код та інші дані, які не треба знати"
+original_text = "Цей  Секретний документ містить секретний код та інші дані, які не треба знати"
 banned = ["секретний", "код"]
 censored = censor_text(original_text, banned)
 

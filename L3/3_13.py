@@ -1,5 +1,6 @@
 def rle_encode(text):
-    if not text: return ""
+    if not text: 
+        return ""
     res = ""
     count = 1
     for i in range(len(text) - 1):
@@ -19,7 +20,7 @@ def rle_decode(data):
         res += char * count
     return res
 
-original = "aaabbccccdbbb"
+original = "aaaaaaaaaaaaaaaaaaaaabbccccdbbb"
 encoded = rle_encode(original)
 decoded = rle_decode(encoded)
 

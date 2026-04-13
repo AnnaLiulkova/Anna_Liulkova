@@ -16,7 +16,7 @@ def find_treasure():
             elif direction == "East": x += steps
             elif direction == "West": x -= steps
         except (ValueError, IndexError):
-            print("Некоректний формат. Спробуйте ще разNorth 7")
+            print("Некоректний формат. Спробуйте ще раз")
             
     print(f"Координати скарбу: {x} {y}")
 
