@@ -6,6 +6,7 @@ K, L = 10, 10
 image = np.random.randint(0, 256, (K, L))
 smoothed_image = image.copy().astype(float)
 
+# використання зрізів
 smoothed_image[1:-1, 1:-1] = (
     image[:-2, :-2] + image[:-2, 1:-1] + image[:-2, 2:] +  
     image[1:-1, :-2] + image[1:-1, 1:-1] + image[1:-1, 2:] + 
