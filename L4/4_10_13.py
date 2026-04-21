@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-n = 10 
+n = 3 
 
 x = np.linspace(0.1, 5, 1000)
 y = np.zeros_like(x)
